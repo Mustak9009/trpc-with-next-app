@@ -1,7 +1,8 @@
-import Image from "next/image";
 
+import Image from "next/image";
+import TodosComponent from '@/components/todos.compnent';
 export default function Home() {
   return (
-  <h1>Trpc</h1>
+  <TodosComponent/>
   );
 }
